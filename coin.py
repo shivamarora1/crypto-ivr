@@ -13,7 +13,7 @@ class Coin:
 
         payload = {}
         headers = {
-            'X-CMC_PRO_API_KEY': os.getenv('TWILLIO_CALL_KEY')
+            'X-CMC_PRO_API_KEY': os.getenv('COIN_MARKET_KEY')
         }
 
         response = requests.request("GET", url, headers=headers, data=payload)

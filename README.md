@@ -7,7 +7,7 @@ This project is used flask framewok for the webhooks of Twillio incoming calls.
 1. First clone this repository and cd into it.
 
 ``$ git clone git@github.com:shivamarora1/crypto-ivr.git`` <br>
-``$ cd ivr-phone-tree-python``
+``$ cd crypto-ivr``
 
 2. Create a new virtual environment.
 
